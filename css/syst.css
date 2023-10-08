@@ -1,0 +1,75 @@
+p{
+    margin: 0;
+    font-weight: 400;
+    font-size: 1 rem;
+    color: black;
+    letter-spacing: 0.07rem;
+    line-height: 1.55rem;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+}
+.hero-section .container{
+    display: grid;
+    place-items: center;
+    height: inherit;
+}
+.bg-main{
+    height: 100vh;
+    position: relative;
+}
+.bg-color{
+    background-color: black;
+}
+
+.video-hero{
+   
+    height: auto;
+    width: 60%;
+    border-radius: 2rem;
+}
+.custom-shape-divider-bottom-1693893676 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1693893676 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1693893676 .shape-fill {
+    fill: #FFFFFF;
+}
+.icon-span{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color:rgb(10, 165, 226);
+    color: white ;
+}
+.card-box:hover{
+    box-shadow: rgba(149,157,165,0.2) 0 8px 24px;
+}
+.more-info-section{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 6rem 0;
+    overflow: hidden;
+    height: 85vh;
+}
+.more-info-section .img-section{
+    position: relative;
+}
+.more-info-section .img-section{
+
+    width: 40%;
+}
